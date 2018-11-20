@@ -1,0 +1,56 @@
+.formulaire_inscription {
+
+}
+.text_formulaire {
+    display:block; 
+    width: 120px;; 
+    float:left;
+    color: aliceblue;
+}
+.modif_formulaire {
+    display:block; 
+    width: 126px;
+    color: aliceblue;
+}
+.texte {
+    color: aliceblue;
+}
+@media only screen and (max-width: 3000px){
+body {
+    background-color: black;
+    background-image: url("177354.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+@media only screen and (min-width: 750px) and (max-width: 800px){
+body {
+    background-color: black;
+    background-image: url("3db5f575137f2269dcab7ed0677cb3d3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+.membre {
+    position: relative;
+    top: 8px;
+    float: right;
+    color: grey;
+    font-size: 16px;
+    padding-right: 20px;
+}
+.caption{
+    border: solid 1px black!important;
+}
+.row {
+    justify-content: center!important;
+    margin-top: 20px!important;
+}
+.dropdown {
+    display: none;
+    padding-left: 0px;
+}
+ul {
+    list-style: none;
+    display: inline-block;
+}
